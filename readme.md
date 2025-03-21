@@ -10,7 +10,7 @@ The repository contains the following files:
 
 - `person.rb` - Contains a partially implemented `Person` class
 - `person_repo.rb` - Contains a partially implemented `PersonRepo` class
-- `main.rb` - Contains code that creates and saves person objects
+- `app.rb` - Contains code that creates and saves person objects
 - `Gemfile` - Lists project dependencies (RSpec for testing)
 - `spec/person_repo_spec.rb` - Tests for the `PersonRepo` class
 - `spec/person_spec.rb` - Tests for the `Person` class
@@ -58,7 +58,7 @@ You need to implement:
 ## Success Criteria
 
 - All tests pass
-- Running `ruby main.rb` successfully saves all person records
+- Running `ruby app.rb` successfully saves all person records
 - Person data persists between program runs
 - Code is clean, readable, and follows Ruby best practices
 
