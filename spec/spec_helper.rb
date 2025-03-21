@@ -3,6 +3,8 @@
 require_relative '../lib/person_repo'
 require_relative '../lib/person'
 
+ENV['RACK_ENV'] = 'test'
+
 RSpec.configure do |config|
   config.disable_monkey_patching!
 
